@@ -1,0 +1,115 @@
+/* Custom Icons 
+ * table row <tr>
+ * table header <th>
+ * table data/cell <td>
+*/
+
+td.icon {
+    text-align: center;
+}
+td.icon i {
+    font-size: 20px;
+    // text-shadow: 1px 1px #aaa;
+}
+/* Use for health_status*/
+td.icon .unhealthy {
+    color: red;
+}
+td.icon .moderately {
+    color: #EFA700;
+}
+td.icon .healthy {
+    color: #64A436;
+}
+/* Use for cpu,mem,workQ*/
+td.icon .critical {
+    color: red;
+}
+td.icon .warning {
+    color: #EFA700;
+}
+td.icon .normal {
+    color: #64A436;
+}
+/* Use for alarm_status*/
+td.icon .Disabled {
+    color: red;
+}
+td.icon .Enabled {
+    color: #64A436;
+}
+/* Row Coloring */
+#highlight tr td {
+    background-color: #c1ffc3 !important;
+}
+#highlight tr.cpu-critical td {
+    background-color: #d59392 !important;
+}
+#highlight tr.cpu-warning td {
+    background-color: #ffc57a !important;
+}
+#highlight tr.cpu-normal td {
+    background-color: #d59392 !important;
+}
+#highlight tr.mem-critical td {
+    background-color: #d59392 !important;
+}
+#highlight tr.mem-warning td {
+    background-color: #ffc57a !important;
+}
+#highlight tr.mem-normal td {
+    background-color: #d59392 !important;
+}
+#highlight tr.queue-critical td {
+    background-color: #d59392 !important;
+}
+#highlight tr.queue-warning td {
+    background-color: #ffc57a !important;
+}
+#highlight tr.queue-normal td {
+    background-color: #d59392 !important;
+}
+#highlight tr.health_status-moderately td {
+    background-color: #ffc57a !important;
+}
+#highlight tr.health_status-unhealthy td {
+    background-color: #d59392 !important;
+}
+#highlight tr.alarm_status-Disabled td {
+    background-color: #d59392 !important;
+}
+#highlight tr.alarm_status-Enabled td {
+    background-color: #006400 !important;
+}
+#highlight .table td {
+    border-top: 1px solid #fff;
+}
+#highlight td.cpu-critical, td.cpu-warning, td.mem-critical, td.mem-warning, td.queue-critical, td.queue-warning, td.health_status-unhealthy, td.health_status-moderately, td.alarm_status-Disabled, td.alarm_status-Enabled {
+    font-weight: bold;
+}
+/* Style all elements with the class name "icon-inline" */
+.icon-inline i {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.icon-inline i.icon-gauge-radial {
+    color: #ef392c;
+}
+.icon-inline i.icon-gauge-marker {
+    color: #ef392c;
+}
+.icon-inline i.icon-activity {
+    color: #ef392c;
+}
+.icon-inline i.icon-check-circle {
+    color: #5fff5e;
+}
+.icon-inline i.icon-lock {
+    color: #5fff5e;
+}
+.icon-inline i.icon-lock-unlocked {
+    color: #5fff5e;
+}
+.icon-inline i.icon-user {
+    color: #5fff5e;
+}
